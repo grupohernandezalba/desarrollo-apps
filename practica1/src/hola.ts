@@ -18,3 +18,7 @@ console.log(numero);
 
 // CommonJS
 //https://stackoverflow.com/questions/41326485/difference-between-module-type-in-tsconfig-json
+
+
+// Strict Mode JS
+//https://www.w3schools.com/js/js_strict.asp
