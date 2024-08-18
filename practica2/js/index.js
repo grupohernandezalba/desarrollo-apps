@@ -1,0 +1,94 @@
+"use strict";
+var _a;
+let texto = 'Tipo de dato string';
+console.log(texto);
+let miNumero = 10;
+miNumero = 20;
+miNumero = 10 + 10;
+miNumero = 2.5;
+console.log(miNumero);
+let booleano = true;
+booleano = false;
+booleano = !booleano;
+booleano = !booleano;
+booleano = true;
+//booleano = 3;
+//booleano = null;
+let encendido;
+//console.log(encendido);
+encendido = true;
+console.log("Encendido es: ", encendido);
+console.log("Encendido es: ", { encendido });
+encendido = true && false;
+console.log("Encendido && es: ", { encendido });
+encendido = true || false;
+console.log("Encendido || es: ", { encendido });
+let valor = (encendido) ? true : false;
+//let valor:boolean  = (encendido) ? 'true' : 'false';
+console.log("Valor es: ", { valor });
+console.log(booleano);
+let normal = 'hola';
+normal = 10;
+//normal = true;
+let v = true;
+v = "string"; // no error as it can be "any" type
+Math.round(v); // no error as it can be "any" type
+let nombre = 'Juan';
+nombre = 'Juan Carlos';
+//nombre = null
+console.log(nombre);
+let value;
+value = true; // OK
+value = 42; // OK
+value = "Hola TS"; // OK
+value = []; // OK
+value = {}; // OK
+value = Math.random; // OK
+value = null; // OK
+value = undefined; // OK
+let miValor;
+let value1 = miValor; // OK
+let value2 = miValor; // OK
+/*
+let value3: boolean = miValor; // Error
+let value4: number = miValor; // Error
+let value5: string = miValor; // Error
+let value6: object = miValor; // Error
+let value7: any[] = miValor; // Error
+let value8: Function = miValor; // Error
+*/
+let desconocido = 10;
+desconocido = true;
+desconocido = 'hola';
+desconocido = 10 + 10;
+if (typeof desconocido === 'number') {
+    let suma = desconocido + 10;
+    console.log("Suma:", suma);
+}
+console.log(desconocido);
+console.log(normal);
+//numbers
+const edad = 18;
+console.log('Edad:', edad);
+const sueldo = 1.234;
+const total = Number('123.456');
+console.log('Total:', total);
+//Cadenas
+const personaje = "El chavo";
+const otroPersonaje = 'Don Ramon';
+const otroMas = `El chapulin colorado`;
+//const heroe:string = 'Superman's house';
+const heroe = "Superman's house";
+const otroHeroe = 'Batman\'s house';
+console.log(otroHeroe);
+console.log(otroHeroe.toUpperCase());
+console.log(((_a = personaje[10]) === null || _a === void 0 ? void 0 : _a.toLowerCase()) || 'No hay personaje');
+//Any
+//const villano;
+let vengador;
+vengador = 'Dr. Strange';
+console.log(vengador.charAt(0));
+vengador = 150.555;
+console.log(vengador.toFixed(1));
+console.log(vengador.toFixed(3));
+console.log(vengador.toFixed(1));
