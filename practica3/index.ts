@@ -16,6 +16,32 @@ console.log(numeros);
 console.log(numeros2);
 
 
+let miArray: number[] = [1,2,3,4,5];
+let miArray2: Array<number> = [1,2,3,4,5];
+let miArray3: (number | string)[] = [1,2,3,4,5,'hola'];
+let miArray4: Array<number | string> = [1,2,3,4,5,'hola'];
+let miArray5: Array<any> = [1,2,3,4,5,'hola',true];
+
+let miArray6: number[] = [];
+miArray6.push(1);
+miArray6.push(2);
+miArray6.push(3);
+
+console.log('Array:',miArray6);
+
+let miArray7: Array<number> = [];
+miArray7.push(1);
+
+console.log('Array:',miArray7);
+
+let miArray8: Array<any> = [];
+miArray8.push(1);
+miArray8.push('hola');
+miArray8.push(true);
+
+console.log('Array:',miArray8);
+
+
 //Tuplas
 
 let tupla:[string, number] = ["Jorge", 35];
