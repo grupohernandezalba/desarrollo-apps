@@ -41,7 +41,7 @@ miArray8.push(true);
 
 console.log('Array:',miArray8);
 
-
+ 
 //Tuplas
 
 let tupla:[string, number] = ["Jorge", 35];
