@@ -47,6 +47,7 @@ value = Math.random; // OK
 value = null; // OK
 value = undefined; // OK
 let miValor;
+console.log("Tipo unknown:", miValor);
 let value1 = miValor; // OK
 let value2 = miValor; // OK
 /*

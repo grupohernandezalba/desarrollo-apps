@@ -68,6 +68,8 @@ value = undefined; // OK
 
 let miValor: unknown;
 
+console.log("Tipo unknown:",miValor);
+
 let value1: unknown = miValor; // OK
 let value2: any = miValor; // OK
 
