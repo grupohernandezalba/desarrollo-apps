@@ -1,5 +1,67 @@
+
+
+// Funciones de primer orden
+function sum(a:number, b:number):number {
+    return a + b;
+}
+
+let resultado = sum(2, 3);
+console.log(resultado);
+
+
+const fSum = sum;
+resultado = fSum(2, 3);
+console.log(resultado);
+
+// Funciones de orden superior
+function operation(fn:any, a:number, b:number):void {
+    console.log("Entro a operation");
+    console.log('Resultado Operation:',fn(a, b));
+}
+
+console.log(operation(sum, 5, 3));
+
+//Funciones arrow
+
+let funcionAnonima = function() {
+    console.log("Entro a funcionAnonima");
+}
+funcionAnonima();
+
+let funcionAnonima2 = () => {
+    console.log("Entro a funcionAnonima2");
+}
+funcionAnonima2();
+
+let funcionAnonima3 = () => console.log("Entro a funcionAnonima3"); 
+
+funcionAnonima3();
+
+console.log(operation((a:number,b:number) => a*b, 5,5));
+
+
+console.log(operation((a:number,b:number):number => {
+    const c = a*b;
+    return c*2;
+}, 5,5));
+
+//foreach
+const names:string[] = ['Hugo', 'Paco', 'Luis'];
+names.forEach((name:string) => console.log(name)); 
+names.forEach((name:string) => console.log(name.toUpperCase())); // forEach no modifica el arreglo original
+console.log(names);
+names.sort(); // Sort es un metodo mutable que modifica el arreglo original
+console.log(names);
+
+
+//map
+
+
+
+
 function saludo(nombre:string):string {
     return `Hola ${nombre}`;
+
 }
 
 console.log(saludo("Jorge"));

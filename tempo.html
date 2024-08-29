@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- Canvas element where the animation will be rendered -->
+    <canvas id="dotlottie-canvas" style="width:50%"></canvas>
+
+    <script type="module">
+      import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+
+    const dotLottie = new DotLottie({
+        autoplay: true,
+        loop: true,
+        canvas: document.querySelector('#dotlottie-canvas'),
+        src: "https://lottie.host/a3d44fef-1f34-4a5f-85e6-ba41e7fd51b4/0ElwICqA2z.lottie", // or .json file
+    });
+
+    </script>
+
+</body>
+</html>

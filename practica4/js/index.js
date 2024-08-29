@@ -1,4 +1,43 @@
 "use strict";
+// Funciones de primer orden
+function sum(a, b) {
+    return a + b;
+}
+let resultado = sum(2, 3);
+console.log(resultado);
+const fSum = sum;
+resultado = fSum(2, 3);
+console.log(resultado);
+// Funciones de orden superior
+function operation(fn, a, b) {
+    console.log("Entro a operation");
+    console.log('Resultado Operation:', fn(a, b));
+}
+console.log(operation(sum, 5, 3));
+//Funciones arrow
+let funcionAnonima = function () {
+    console.log("Entro a funcionAnonima");
+};
+funcionAnonima();
+let funcionAnonima2 = () => {
+    console.log("Entro a funcionAnonima2");
+};
+funcionAnonima2();
+let funcionAnonima3 = () => console.log("Entro a funcionAnonima3");
+funcionAnonima3();
+console.log(operation((a, b) => a * b, 5, 5));
+console.log(operation((a, b) => {
+    const c = a * b;
+    return c * 2;
+}, 5, 5));
+//foreach
+const names = ['Hugo', 'Paco', 'Luis'];
+names.forEach((name) => console.log(name));
+names.forEach((name) => console.log(name.toUpperCase())); // forEach no modifica el arreglo original
+console.log(names);
+names.sort(); // Sort es un metodo mutable que modifica el arreglo original
+console.log(names);
+//map
 function saludo(nombre) {
     return `Hola ${nombre}`;
 }
