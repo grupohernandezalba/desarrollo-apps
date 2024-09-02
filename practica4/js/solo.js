@@ -5,6 +5,7 @@ function add(a,b){
 
 console.log(add(10,100));
 
+
 console.log(add(10,'100'));
 
 console.log(add(10,{}));
@@ -18,4 +19,3 @@ console.log(add(10,undeclared));
 
 console.log(add(10,{}.test()));
 
- 
