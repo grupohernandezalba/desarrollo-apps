@@ -34,7 +34,7 @@
     {
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 3,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
@@ -50,7 +50,7 @@
     {
         "nombre" : "Víctor Hassiel",
         "apellidos" : "Alonso Romero",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 3,
         "foto" : "imagenes/victor.webp",
         "equipo" : "NA"
@@ -58,7 +58,7 @@
     {
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
-        "participaciones" : 6,
+        "participaciones" : 7,
         "practicas" : 3,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
@@ -74,7 +74,7 @@
     {
         "nombre" : "Jorge",
         "apellidos" : "Estrada Estrada",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
@@ -82,7 +82,7 @@
     {
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
-        "participaciones" : 4,
+        "participaciones" : 5,
         "practicas" : 3,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"

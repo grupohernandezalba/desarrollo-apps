@@ -6,6 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="js/index.js"></script>
+
+ <div>
+    <canvas id="myChart"></canvas>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="js/index.js"></script>
+
+<script>
+  const ctx = document.getElementById('myChart');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: fibonacci,
+      datasets: [{
+        label: '# of Votes',
+        data: fibonacci,
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+
 </body>
 </html>

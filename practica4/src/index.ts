@@ -224,3 +224,33 @@ console.log(myFunction());
 
 let miArreglo: string[] = ['a','b','c']
 console.log(miArreglo);
+
+
+
+
+// Reto
+
+// Usando TS y desetructracion de variables hay que
+// generar una serie de Fibonaccio con hasta 100 veces
+/*
+
+En matemática, la sucesión de Fibonacci se trata de una serie infinita de números naturales que empieza con un 0 y un 1 y continúa añadiendo números que son la suma de los dos anteriores: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987
+
+Graficar los resultados en pantalla
+*/
+
+function fibonacciSeries(n: number): number[] {
+    const series: number[] = [0, 1];
+
+    for (let i = 2; i < n; i++) {
+        const nextNumber = series[i - 1] + series[i - 2];
+        series.push(nextNumber);
+    }
+
+    return series;
+}
+
+const n:number = 25; // Change this value to generate Fibonacci series up to a different number
+const fibonacci:number[] = fibonacciSeries(n);
+console.log(fibonacci); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
+
