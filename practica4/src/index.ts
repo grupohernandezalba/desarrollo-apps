@@ -254,3 +254,6 @@ const n:number = 25; // Change this value to generate Fibonacci series up to a d
 const fibonacci:number[] = fibonacciSeries(n);
 console.log(fibonacci); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987]
 
+const frutas = ["Banana", "Orange", "Apple", "Mango"];
+let text = frutas.join(); // Banana,Orange,Apple,Mango
+// join() convierte un arreglo en una cadena de texto, no modifica el arreglo original
