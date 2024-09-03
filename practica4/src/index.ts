@@ -257,3 +257,28 @@ console.log(fibonacci); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
 const frutas = ["Banana", "Orange", "Apple", "Mango"];
 let text = frutas.join(); // Banana,Orange,Apple,Mango
 // join() convierte un arreglo en una cadena de texto, no modifica el arreglo original
+
+
+
+/* Mutable y inmutable */
+
+// Mutable
+let a = [1,2,3];
+let b = a;
+b.push(4);
+console.log(a);
+
+// Inmutable
+const c1:number = 10;
+//c1 = 20; // Error
+console.log(c1);
+
+let user = {
+    name: 'Juan',
+    age: 25
+} // as const;
+
+//user = 20;
+user.age = 30;
+user.name = 'Pedro';
+console.log(user);
