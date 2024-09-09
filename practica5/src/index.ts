@@ -9,8 +9,6 @@ const person = {
   let {firstName, lastName} = person;
   console.log(firstName,' ',lastName);
 
-
-
   // Create an Object
 const person2 = {
     firstName2: "John",
