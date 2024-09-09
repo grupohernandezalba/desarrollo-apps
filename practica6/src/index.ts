@@ -1,12 +1,12 @@
 //Enum
 
 enum Color {Rojo, Verde, Azul};
-let c:Color = Color.Rojo;
+let c1:Color = Color.Rojo;
 
 console.log(Color);
 //Color.Rojo = 1;
 console.log(Color.Rojo);
-console.log(c);
+console.log(c1);
 
 enum Color2 {Rojo = 1, Verde, Azul};
 let c2:Color2 = Color2.Rojo;
