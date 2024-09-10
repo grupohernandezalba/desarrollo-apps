@@ -46,9 +46,9 @@ const person2 = {
     let lastName3 = "Doe";
 
     // Destructing
-    [firstName, lastName] = [lastName3, firstName3];
-    console.log(firstName);
-    console.log(lastName);
+    let [firstName1, lastName1] = [lastName3, firstName3];
+    console.log(firstName1);
+    console.log(lastName1);
     
     // Poo en TypeScript
     // Clases
@@ -174,6 +174,62 @@ const person2 = {
     }
      
     const usuario: User = new UserAccount("Murphy", 1);
+
+
+    class Automovil{
+      marca: string;
+      modelo: string;
+      anio: number;
+      constructor(marca: string, modelo: string, anio: number){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.anio = anio;
+      }
+    }
+
+    const auto = new Automovil("Toyota", "Corolla", 2020);
+    console.log(auto.marca);
+    console.log(auto.modelo);
+    console.log(auto.anio);
+
+ // Herencia
+class Animal {
+    nombre: string;
+    constructor(nombre: string) { this.nombre = nombre; }
+
+    mover(distancia: number = 0) {
+        console.log(`${this.nombre} se mueve ${distancia} mts.`);
+    }
+
+    hacerSonido(sonido: string = "Sin sonido") {
+      console.log(`${this.nombre} hace ${sonido}`);
+    }
+}
+
+class Perro extends Animal {
+    constructor(nombre: string) { super(nombre); }
+    mover(distancia = 5) {
+        console.log("Caminando...");
+        super.mover(distancia);
+    }
+}
+
+class Serpiente extends Animal {
+  constructor(nombre: string) { super(nombre); }
+  mover(distancia = 5) {
+      console.log("Deslizandose...");
+      super.mover(distancia);
+  }
+}
+
+const perro1 = new Perro("SoloVino");
+perro1.mover();
+perro1.hacerSonido("Barf");
+
+const serpiente1 = new Serpiente("Cobra");
+serpiente1.mover();
+serpiente1.hacerSonido("Siss");
+
 
 
 

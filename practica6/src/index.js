@@ -1,3 +1,4 @@
+"use strict";
 //Enum
 var Color;
 (function (Color) {
@@ -6,7 +7,7 @@ var Color;
     Color[Color["Azul"] = 2] = "Azul";
 })(Color || (Color = {}));
 ;
-var c1 = Color.Rojo;
+let c1 = Color.Rojo;
 console.log("Enum:", Color);
 //Color.Rojo = 1;
 console.log(Color.Rojo);
@@ -18,9 +19,9 @@ var Color2;
     Color2[Color2["Azul"] = 3] = "Azul";
 })(Color2 || (Color2 = {}));
 ;
-var c2 = Color2.Rojo;
+let c2 = Color2.Rojo;
 console.log(c2);
-var otroColor = Color2;
+let otroColor = Color2;
 console.log('otroColor:', otroColor.Azul);
 var CardinalDirections;
 (function (CardinalDirections) {
@@ -29,7 +30,7 @@ var CardinalDirections;
     CardinalDirections[CardinalDirections["South"] = 2] = "South";
     CardinalDirections[CardinalDirections["West"] = 3] = "West";
 })(CardinalDirections || (CardinalDirections = {}));
-var currentDirection = CardinalDirections.North;
+let currentDirection = CardinalDirections.North;
 // logs 0
 console.log(currentDirection);
 console.log(CardinalDirections.North);
@@ -66,17 +67,17 @@ var Volumen;
     Volumen[Volumen["medio"] = 5] = "medio";
     Volumen[Volumen["max"] = 10] = "max";
 })(Volumen || (Volumen = {}));
-var audio = Volumen.medio;
+let audio = Volumen.medio;
 console.log('audio:', audio);
 //Cast, conversión de tipos
-var mensaje1 = "no se que dato tiene, viene de petición http";
+let mensaje1 = "no se que dato tiene, viene de petición http";
 mensaje1 = 100;
-var longitud = mensaje1;
+let longitud = mensaje1;
 console.log("Longitud: ", longitud);
 //console.log("Tipo Longitud: ", typeof(longitud));
 //void, no retorna nada, no tiene tipo
 function llamar_batman() {
     console.log("Mostrar la batiseñal");
 }
-var mensaje2 = llamar_batman();
+let mensaje2 = llamar_batman();
 console.log(mensaje2);
