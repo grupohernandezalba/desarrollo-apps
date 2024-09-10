@@ -1,14 +1,5 @@
 "use strict";
 // Create an Object
-const person = {
-    firstName: "John",
-    lastName: "Doe",
-    age: 50
-};
-// Destructuring
-let { firstName, lastName } = person;
-console.log(firstName, ' ', lastName);
-// Create an Object
 const person2 = {
     firstName2: "John",
     lastName2: "Doe",

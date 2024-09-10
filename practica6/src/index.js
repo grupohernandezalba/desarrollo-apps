@@ -74,7 +74,7 @@ mensaje1 = 100;
 var longitud = mensaje1;
 console.log("Longitud: ", longitud);
 //console.log("Tipo Longitud: ", typeof(longitud));
-//void
+//void, no retorna nada, no tiene tipo
 function llamar_batman() {
     console.log("Mostrar la batiseñal");
 }

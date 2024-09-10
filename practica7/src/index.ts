@@ -1,6 +1,6 @@
 
 
-// Funciones de primer orden
+// Funciones de primer orden, funciones que pueden ser asignadas a variables
 function sum(a:number, b:number):number {
     return a + b;
 }
@@ -13,7 +13,7 @@ const fSum = sum;
 resultado = fSum(2, 3);
 console.log(resultado);
 
-// Funciones de orden superior
+// Funciones de orden superior, funciones que reciben funciones como argumentos
 function operation(fn:any, a:number, b:number):void {
     console.log("Entro a operation");
     console.log('Resultado Operation:',fn(a, b));
@@ -21,12 +21,15 @@ function operation(fn:any, a:number, b:number):void {
 
 console.log(operation(sum, 5, 3));
 
-//Funciones arrow
+//Funciones arrow, funciones anonimas que se pueden asignar a variables
 
 let funcionAnonima = function() {
     console.log("Entro a funcionAnonima");
 }
+
 funcionAnonima();
+// Entonces funcionAnonima es una variable o es una función? 
+console.log('funcionAnonima:',funcionAnonima);
 
 let funcionAnonima2 = () => {
     console.log("Entro a funcionAnonima2");
@@ -37,9 +40,10 @@ let funcionAnonima3 = () => console.log("Entro a funcionAnonima3");
 
 funcionAnonima3();
 
+//Funciones flecha con parametros
 console.log(operation((a:number,b:number) => a*b, 5,5));
 
-
+//Funciones flecha con cuerpo de funcion
 console.log(operation((a:number,b:number):number => {
     const c = a*b;
     return c*2;
@@ -53,12 +57,7 @@ console.log(names);
 names.sort(); // Sort es un metodo mutable que modifica el arreglo original
 console.log(names);
 
-
-//map
-
-
-
-
+ // Usando template strings
 function saludo(nombre:string):string {
     return `Hola ${nombre}`;
 
@@ -75,7 +74,7 @@ function advertencia():void {
 advertencia();
 
 
-//Never
+//Never, no retorna nada y lanza una excepción
 
 function error(mensaje:string):never {
     throw new Error(mensaje);
@@ -83,7 +82,7 @@ function error(mensaje:string):never {
 
 //error("Error crítico");
 
-//Parametros opcionales
+//Parametros opcionales, se pueden asignar valores por defecto o no asignar valores
 
 function saludo2(nombre?:string):string {
     if(nombre) {
@@ -96,7 +95,7 @@ function saludo2(nombre?:string):string {
 console.log(saludo2());
 console.log(saludo2("Jorge"));
 
-//Tipo funcion
+//Tipo funcion, 
 
 function suma(a:number, b:number):number {
     return a + b;
@@ -104,12 +103,13 @@ function suma(a:number, b:number):number {
 
 let miFuncion:(a:number, b:number) => number;
 
+// Asi se asigna una funcion a una variable de tipo funcion
 miFuncion = suma;
 
 console.log(miFuncion(2, 3));
 
 
-//Tipo literal
+//Tipo literal, se pueden asignar valores literales a una variable
 
 type accion = 'suma' | 'resta';
 function operacion(a:number, b:number, operacion:accion):number {
@@ -121,6 +121,8 @@ function operacion(a:number, b:number, operacion:accion):number {
 }
 
 console.log(operacion(2, 3, 'suma'));
+console.log(operacion(2, 3, 'resta'));
+//console.log(operacion(2, 3, 'multiplicacion')); // Error de compilación
 
 
 const nuevoHeroe: string = 'Flash';
@@ -129,14 +131,18 @@ function returnName():string {
     return nuevoHeroe;
 }
 
+const heroeNombre = returnName();
+console.log(heroeNombre);
 
+// Funciones en TypeScript, asignar funcion a una constante, no se puede asignar a una variable
 const activarBatiSenal = ():string => {
     return 'BatiSeñal Activada!';
 }
 
-console.log(typeof activarBatiSenal);
+//let mensaje = activarBatiSenal(); //error
 
-const heroeNombre = returnName();
+console.log('typeof activarBatiSenal :',typeof activarBatiSenal);
+
 
 //Parametros obligatorios en funciones
 
