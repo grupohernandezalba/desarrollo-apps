@@ -231,3 +231,5 @@ console.log(myFunction());
 let miArreglo: string[] = ['a','b','c','d'];
 console.log(miArreglo);
 
+// Compartiendo mi codigo con alguien mas usando Live Share
+// Ok perfecto
