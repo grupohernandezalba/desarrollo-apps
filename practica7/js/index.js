@@ -89,13 +89,14 @@ var nuevoHeroe = 'Flash';
 function returnName() {
     return nuevoHeroe;
 }
+var heroeNombre = returnName();
+console.log(heroeNombre);
 // Funciones en TypeScript, asignar funcion a una constante, no se puede asignar a una variable
 var activarBatiSenal = function () {
     return 'BatiSeñal Activada!';
 };
 //let mensaje = activarBatiSenal(); //error
 console.log('typeof activarBatiSenal :', typeof activarBatiSenal);
-var heroeNombre = returnName();
 //Parametros obligatorios en funciones
 var nombreCompleto = function (nombre, apellido) {
     return "".concat(nombre, " ").concat(apellido);
@@ -151,5 +152,5 @@ myFunction = greet;
 console.log(myFunction('Juan'));
 myFunction = saveTheWorld;
 console.log(myFunction());
-var miArreglo = ['a', 'b', 'c'];
+var miArreglo = ['a', 'b', 'c', 'd'];
 console.log(miArreglo);

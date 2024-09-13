@@ -228,6 +228,6 @@ console.log(myFunction('Juan'));
 myFunction = saveTheWorld;
 console.log(myFunction());
 
-let miArreglo: string[] = ['a','b','c']
+let miArreglo: string[] = ['a','b','c','d'];
 console.log(miArreglo);
 
