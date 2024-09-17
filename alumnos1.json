@@ -2,120 +2,120 @@
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Almanza Contreras",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 5,
+        "practicas" : 5,
         "foto" : "imagenes/jose-de-jesus-almanza.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Greys Alexa",
         "apellidos" : "Almanza Vega",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 3,
+        "practicas" : 6,
         "foto" : "imagenes/greys.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 6,
+        "practicas" : 6,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Josué",
         "apellidos" : "Amador Ynfante",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 4,
+        "practicas" : 3,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 5,
+        "practicas" : 6,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge Orlando",
         "apellidos" : "Andrade Hernández",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 4,
+        "practicas" : 6,
         "foto" : "imagenes/orlando.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Víctor Hassiel",
         "apellidos" : "Alonso Romero",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 5,
+        "practicas" : 4,
         "foto" : "imagenes/victor.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 7,
+        "practicas" : 6,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Leonardo Gael",
         "apellidos" : "Durán Torres",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 6,
+        "practicas" : 6,
         "foto" : "imagenes/leo.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge",
         "apellidos" : "Estrada Estrada",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 6,
+        "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 6,
+        "practicas" : 6,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Saray Alexandra",
         "apellidos" : "Martínez",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 5,
+        "practicas" : 5,
         "foto" : "imagenes/saray.webp",
         "equipo" : "NA"
     }, 
     {
         "nombre" : "Christopher",
         "apellidos" : "Rojas García",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 5,
+        "practicas" : 3,
         "foto" : "imagenes/cris.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Diego Sebastián",
         "apellidos" : "Rojas Guerrero",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 4,
+        "practicas" : 6,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Carlos Manuel",
         "apellidos" : "Serrano Aguilar",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 3,
+        "practicas" : 6,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     }
