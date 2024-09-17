@@ -108,6 +108,12 @@ miFuncion = suma;
 
 console.log(miFuncion(2, 3));
 
+// Tipo explicit 
+let primerNombre: string = "Dylan";
+
+// Tipo inferido implicit
+let primerNombre2 = "Dylan";
+
 
 //Tipo literal, se pueden asignar valores literales a una variable
 
