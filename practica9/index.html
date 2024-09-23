@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Acceso</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header id="cabecera"></header>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <h1 class="text-center">Formulario de acceso al sistema</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña:</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="password" required>
+                            <button class="btn btn-outline-secondary border" type="button" id="togglePassword">
+                                <i class="bi bi-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                    </div>
+                    <div class="mb-3">
+                        <a href="recordar.html" class="text-decoration-none">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <div class="mb-3">
+                        <a href="#" class="text-decoration-none">¿No tienes cuenta? regístrate aquí</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer id="piedepagina"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/piedepagina.js"></script>
+
+    <!--
+    crea una pagina web en html usando bootstrap 5.3, html5 y css3, debe tener un formulario de acceso con usuario y contraseña, el usuario debe ser un correo electrónico y debe estar validado, utiliza un diseño moderno y minimalista, adicional debe uan liga para recuperar la contraseña. Debe incluir iconos de bootstrap icons y el campo de contraseña debe tener la opcion de mostrar / ocultar la contraseña
+
+
+    Crear un pie de pagina en html con la ubicacion de la empresa, telefono, derechos reservados liga a redes sociales de instagram, youtube y linkedin usa iconos de Bootstrap, incluye aviso de privacidad y terminos y condiciones de uso
+    
+    -->
+</body>
+</html>
