@@ -28,3 +28,7 @@ console.log(cpusCoreLogic[0].model);
 
 const networkInfo = os.networkInterfaces();
 console.log(networkInfo);
+
+
+const homeDir = os.homedir();
+console.log(homeDir);
