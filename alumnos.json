@@ -2,7 +2,7 @@
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Almanza Contreras",
-        "participaciones" : 1,
+        "participaciones" : 32004,
         "practicas" : 3,
         "foto" : "imagenes/jose-de-jesus-almanza.webp",
         "equipo" : "NA"
@@ -25,7 +25,7 @@
     },
     {
         "nombre" : "Josué",
-        "apellidos" : "Amador Ynfante",
+        "apellidos" : "Amador Ynfante,Access modifiers",
         "participaciones" : 1,
         "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
@@ -33,7 +33,7 @@
     },
     {
         "nombre" : "Luis Felipe",
-        "apellidos" : "Anaya Parada",
+        "apellidos" : "Anaya Parada,Tema TSconfig",
         "participaciones" : 1,
         "practicas" : 1,
         "foto" : "imagenes/luis-felipe.webp",
@@ -49,8 +49,8 @@
     },
     {
         "nombre" : "Víctor Hassiel",
-        "apellidos" : "Alonso Romero",
-        "participaciones" : 1,
+        "apellidos" : "Avila Monjaraz",
+        "participaciones" : 32001,
         "practicas" : 3,
         "foto" : "imagenes/victor.webp",
         "equipo" : "NA"
@@ -58,7 +58,7 @@
     {
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
-        "participaciones" : 1,
+        "participaciones" : 32001,
         "practicas" : 3,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
@@ -73,7 +73,7 @@
     },
     {
         "nombre" : "Jorge",
-        "apellidos" : "Estrada Estrada",
+        "apellidos" : "Estrada Estrada, Access modifiers",
         "participaciones" : 1,
         "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
@@ -82,7 +82,7 @@
     {
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
-        "participaciones" : 1,
+        "participaciones" : 32001,
         "practicas" : 3,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"
@@ -97,7 +97,7 @@
     }, 
     {
         "nombre" : "Christopher",
-        "apellidos" : "Rojas García",
+        "apellidos" : "Rojas García, Generics ",
         "participaciones" : 1,
         "practicas" : 1,
         "foto" : "imagenes/cris.webp",
@@ -114,7 +114,7 @@
     {
         "nombre" : "Carlos Manuel",
         "apellidos" : "Serrano Aguilar",
-        "participaciones" : 1,
+        "participaciones" : 32001,
         "practicas" : 3,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
