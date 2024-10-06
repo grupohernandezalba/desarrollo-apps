@@ -11,7 +11,7 @@
         "nombre" : "Greys Alexa",
         "apellidos" : "Almanza Vega",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/greys.webp",
         "equipo" : "NA"
     },
@@ -19,7 +19,7 @@
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
@@ -35,7 +35,7 @@
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada,Tema TSconfig",
         "participaciones" : 1,
-        "practicas" : 1,
+        "practicas" : 4,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
@@ -43,7 +43,7 @@
         "nombre" : "Jorge Orlando",
         "apellidos" : "Andrade Hernández",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/orlando.webp",
         "equipo" : "NA"
     },
@@ -59,7 +59,7 @@
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
         "participaciones" : 32001,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
@@ -67,7 +67,7 @@
         "nombre" : "Leonardo Gael",
         "apellidos" : "Durán Torres",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/leo.webp",
         "equipo" : "NA"
     },
@@ -83,7 +83,7 @@
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
         "participaciones" : 32001,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"
     },
@@ -91,7 +91,7 @@
         "nombre" : "Saray Alexandra",
         "apellidos" : "Martínez",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/saray.webp",
         "equipo" : "NA"
     }, 
@@ -99,7 +99,7 @@
         "nombre" : "Christopher",
         "apellidos" : "Rojas García, Generics ",
         "participaciones" : 1,
-        "practicas" : 1,
+        "practicas" : 3,
         "foto" : "imagenes/cris.webp",
         "equipo" : "NA"
     },
