@@ -3,7 +3,7 @@
         "nombre" : "José de Jesús",
         "apellidos" : "Almanza Contreras",
         "participaciones" : 32004,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/jose-de-jesus-almanza.webp",
         "equipo" : "NA"
     },
@@ -27,15 +27,15 @@
         "nombre" : "Josué",
         "apellidos" : "Amador Ynfante,Access modifiers",
         "participaciones" : 1,
-        "practicas" : 2,
+        "practicas" : 4,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Luis Felipe",
-        "apellidos" : "Anaya Parada,Tema TSconfig",
+        "apellidos" : "Anaya Parada",
         "participaciones" : 1,
-        "practicas" : 4,
+        "practicas" : 5,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
@@ -51,7 +51,7 @@
         "nombre" : "Víctor Hassiel",
         "apellidos" : "Avila Monjaraz",
         "participaciones" : 32001,
-        "practicas" : 3,
+        "practicas" : 5,
         "foto" : "imagenes/victor.webp",
         "equipo" : "NA"
     },
@@ -107,7 +107,7 @@
         "nombre" : "Diego Sebastián",
         "apellidos" : "Rojas Guerrero",
         "participaciones" : 1,
-        "practicas" : 3,
+        "practicas" : 4,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
