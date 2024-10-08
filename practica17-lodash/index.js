@@ -3,7 +3,6 @@ const _ = require('lodash');
 
 
 //Ejercicio 1, chunk sirve para dividir un array en subarrays de un tamaño determinado
- 
 
 console.log(_.chunk([1, 2, 3, 4, 5, 6, 7, 8], 3));
 
@@ -59,8 +58,10 @@ const obtieneNumero = () => {
 }
 
 let result = _.times(5, obtieneNumero);
-console.log(result);
+console.log('resultado:',result);
 
+
+//fin de la practica 17
 
 
 
