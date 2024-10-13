@@ -1,0 +1,33 @@
+<%- include('./encabezado.ejs')%>
+<%- include('./menu.ejs')%>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2>Artículos de Blog</h2>
+            </div>
+        </div>
+        <div class="row">
+            <% if(articulos.length > 0){ %>
+
+                <% articulos.forEach(articulo => { %>
+                    <div class="col-12 col-md-3 my-3">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title"><%= articulo.titulo %></h5>
+                            <p class="card-text"><%= articulo.autor %></p>
+                            <p class="card-text"><%= articulo.contenido %></p>
+                            <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+        
+            <% }  else { %>
+                <p>No hay artículos disponibles</p>
+            <% } %>
+        </div>
+    </div>
+
+<%- include('./piedepagina.ejs')%>

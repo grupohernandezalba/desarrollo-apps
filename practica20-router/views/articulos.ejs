@@ -1,0 +1,23 @@
+<%- include('./encabezado.ejs')%>
+<%- include('./menu.ejs')%>
+
+    <div class="articulos">
+        <h2>Artículos de Blog</h2>
+    </div>
+
+    <% if(articulos.length > 0){ %>
+        <ul>
+            <% articulos.forEach(articulo => { %>
+                <li>
+                    <h3><%= articulo.titulo %></h3>
+                    <p><%= articulo.autor %></p>
+                    <p><%= articulo.contenido %></p>
+                </li>
+            <% }); %>
+        </ul>   
+    <% }  else { %>
+        <p>No hay artículos disponibles</p>
+    <% } %>
+    
+
+<%- include('./piedepagina.ejs')%>
