@@ -19,12 +19,12 @@
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
         "participaciones" : 1,
-        "practicas" : 12,
+        "practicas" : 13,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
     {
-        "nombre" : "Josué",
+        "nombre" : "Josué (8)",
         "apellidos" : "Amador Ynfante,Access modifiers",
         "participaciones" : 1,
         "practicas" : 9,
@@ -72,7 +72,7 @@
         "equipo" : "NA"
     },
     {
-        "nombre" : "Jorge",
+        "nombre" : "Jorge (8), subira practicas miercoles y sube a 9",
         "apellidos" : "Estrada Estrada, Access modifiers",
         "participaciones" : 1,
         "practicas" : 1,
@@ -88,7 +88,7 @@
         "equipo" : "NA"
     },
     {
-        "nombre" : "Saray Alexandra",
+        "nombre" : "Saray Alexandra (8)",
         "apellidos" : "Martínez",
         "participaciones" : 1,
         "practicas" : 7,
@@ -104,7 +104,7 @@
         "equipo" : "NA"
     },
     {
-        "nombre" : "Diego Sebastián",
+        "nombre" : "Diego Sebastián (9)",
         "apellidos" : "Rojas Guerrero",
         "participaciones" : 1,
         "practicas" : 7,
@@ -112,7 +112,7 @@
         "equipo" : "NA"
     },
     {
-        "nombre" : "Carlos Manuel",
+        "nombre" : "Carlos Manuel (8)",
         "apellidos" : "Serrano Aguilar",
         "participaciones" : 32001,
         "practicas" : 9,
