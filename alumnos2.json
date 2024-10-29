@@ -2,120 +2,120 @@
     {
         "nombre" : "José de Jesús",
         "apellidos" : "Almanza Contreras",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 32004,
+        "practicas" : 13,
         "foto" : "imagenes/jose-de-jesus-almanza.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Greys Alexa",
         "apellidos" : "Almanza Vega",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 13,
         "foto" : "imagenes/greys.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 13,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Josué (8)",
         "apellidos" : "Amador Ynfante,Access modifiers",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 9,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 13,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge Orlando",
         "apellidos" : "Andrade Hernández",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 13,
         "foto" : "imagenes/orlando.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Víctor Hassiel",
         "apellidos" : "Avila Monjaraz",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 32001,
+        "practicas" : 13,
         "foto" : "imagenes/victor.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 32001,
+        "practicas" : 13,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Leonardo Gael",
         "apellidos" : "Durán Torres",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 13,
         "foto" : "imagenes/leo.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge",
-        "apellidos" : "Estrada Estrada",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "apellidos" : "Estrada Estrada, Access modifiers",
+        "participaciones" : 1,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 32001,
+        "practicas" : 13,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"
     },
     {
-        "nombre" : "Saray Alexandra",
+        "nombre" : "Saray Alexandra (8)",
         "apellidos" : "Martínez",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 7,
         "foto" : "imagenes/saray.webp",
         "equipo" : "NA"
     }, 
     {
-        "nombre" : "Christopher",
-        "apellidos" : "Rojas García ",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "nombre" : "Christopher (8)",
+        "apellidos" : "Rojas García, Generics ",
+        "participaciones" : 1,
+        "practicas" : 4,
         "foto" : "imagenes/cris.webp",
         "equipo" : "NA"
     },
     {
-        "nombre" : "Diego Sebastián",
+        "nombre" : "Diego Sebastián (9)",
         "apellidos" : "Rojas Guerrero",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 7,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
-        "nombre" : "Carlos Manuel",
+        "nombre" : "Carlos Manuel (8)",
         "apellidos" : "Serrano Aguilar",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 32001,
+        "practicas" : 9,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     }

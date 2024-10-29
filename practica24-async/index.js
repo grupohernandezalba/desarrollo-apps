@@ -28,7 +28,7 @@ app.use(express.static('public'));
 //El middleware se ejecuta para todas las rutas
 
 app.use((req, res, next) => {
-    console.log('Middleware ejecutado');
+    console.log('Middleware ejecutado con --watch');
     next();
 });
 
