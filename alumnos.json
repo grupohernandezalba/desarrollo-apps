@@ -10,8 +10,8 @@
     {
         "nombre" : "Greys Alexa",
         "apellidos" : "Almanza Vega",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 1,
         "foto" : "imagenes/greys.webp",
         "equipo" : "NA"
     },
@@ -19,31 +19,31 @@
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
         "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
     {
-        "nombre" : "Josué (8)",
+        "nombre" : "Josué",
         "apellidos" : "Amador Ynfante,Access modifiers",
         "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 2,
+        "practicas" : 1,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge Orlando",
         "apellidos" : "Andrade Hernández",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 2,
+        "practicas" : 1,
         "foto" : "imagenes/orlando.webp",
         "equipo" : "NA"
     },
@@ -59,22 +59,22 @@
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
         "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
     {
         "nombre" : "Leonardo Gael",
         "apellidos" : "Durán Torres",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 1,
         "foto" : "imagenes/leo.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Jorge",
         "apellidos" : "Estrada Estrada",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
@@ -82,15 +82,15 @@
     {
         "nombre" : "Saúl Alberto",
         "apellidos" : "Guadarrama Delgado",
-        "participaciones" : 0,
-        "practicas" : 0,
+        "participaciones" : 1,
+        "practicas" : 1,
         "foto" : "imagenes/saul.webp",
         "equipo" : "NA"
     },
     {
         "nombre" : "Saray Alexandra",
         "apellidos" : "Martínez",
-        "participaciones" : 0,
+        "participaciones" : 1,
         "practicas" : 0,
         "foto" : "imagenes/saray.webp",
         "equipo" : "NA"
@@ -99,7 +99,7 @@
         "nombre" : "Christopher",
         "apellidos" : "Rojas García ",
         "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/cris.webp",
         "equipo" : "NA"
     },
@@ -114,7 +114,7 @@
     {
         "nombre" : "Carlos Manuel",
         "apellidos" : "Serrano Aguilar",
-        "participaciones" : 0,
+        "participaciones" : 2,
         "practicas" : 0,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"

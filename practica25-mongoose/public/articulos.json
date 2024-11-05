@@ -1,0 +1,44 @@
+{
+    "articulos": [
+    {
+        "titulo": "Artículo 1",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 2",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 3",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 1",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 2",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 3",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 1",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    },
+    {
+        "titulo": "Artículo 2",
+        "autor": "Juan Perez",
+        "contenido": "Lorem ipsum dolor sit amet consectetur"
+    }
+]
+}

@@ -1,2 +1,0 @@
-# desarrollo-apps
-desarrollo-apps
