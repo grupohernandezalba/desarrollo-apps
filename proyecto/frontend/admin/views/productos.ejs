@@ -1,0 +1,91 @@
+<%- include('./encabezado.ejs')%>
+<%- include('./menu.ejs')%>
+
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <h1>Productos</h1>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="input-group mb-3">
+                        <input type="text" id="productoBuscar" name="productoBuscar" class="form-control" placeholder="ingrese un producto a buscar..." aria-label="producto" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="btnBuscar">Buscar</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="#" class="btn btn-sm btn-primary float-end" data-bs-toggle="modal" data-bs-target="#nuevoModal">Nuevo Producto</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">No</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>  
+                        <% if(productos.length > 0){ %>
+
+                            <% let contador = 0 %>
+                            <% productos.forEach(producto => { %>
+                                <tr>
+                                    <td><p><%= contador + 1 %></p></td>
+                                    <td><p><%= producto.nombre %></p></td>
+                                    <td><p><%= producto.precio %></p></td>
+                                    <td class="text-center">
+                                        <a href="#" class="btn btn-sm btn-primary btnEditar" data-nombre="<%= producto.nombre %>" data-precio="<%= producto.precio %>" data-id="<%= producto._id %>" data-bs-toggle="modal" data-bs-target="#editarModal">Editar</a>
+                                        <a href="/productos/<%= producto._id %>" onclick="return confirm('Esta seguro?');" class="btn btn-sm btn-danger">Eliminar</a>
+                                    </td>
+                                </tr>
+                                <% contador++; %>
+                            <% }); %>
+                    
+                        <% }  else { %>
+                            <p>No hay artículos disponibles</p>
+                        <% } %>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+<%- include('./nuevo.ejs')%>
+<%- include('./editar.ejs')%>
+<%- include('./piedepagina.ejs')%>
+
+
+<script>
+    let btnBuscar = document.querySelector('#btnBuscar');
+    let productoBuscar = document.querySelector('#productoBuscar');
+/*
+    btnBuscar.addEventListener('click', () => {
+        window.location.href = `/productos/nombre/${productoBuscar.value}`;
+    });
+
+
+    productoBuscar.addEventListener('keyup', (e) => {
+         
+        window.location.href = `/productos/nombre/${productoBuscar.value}`;
+
+
+    });
+
+*/
+
+
+    productoBuscar.addEventListener('keyup', (e) => {
+        let value = productoBuscar.value.toLowerCase();
+        let rows = document.querySelectorAll("table tr");
+        rows.forEach(row => {
+            let text = row.textContent.toLowerCase();
+            row.style.display = text.indexOf(value) > -1 ? '' : 'none';
+        });
+    });
+
+
+</script>

@@ -1,0 +1,38 @@
+<div class="modal fade" id="editarModal" tabindex="-1" aria-labelledby="editarModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="editarModalLabel">Editar producto</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="/productos/actualizar" method="post">
+                <div class="mb-3">
+                    <label for="enombre" class="form-label">Nombre:</label>
+                    <input type="text" required class="form-control" id="enombre" name="enombre">
+                </div>
+                <div class="mb-3">
+                    <label for="precio" class="form-label">Precio:</label>
+                    <input type="number" required step="any" class="form-control" id="eprecio" name="eprecio">
+                </div>
+                <input type="hidden" name="eid" id="eid">
+                <button type="submit" class="btn btn-primary">Guardar cambios</button>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.btnEditar').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelector('#enombre').value = btn.getAttribute('data-nombre');
+            document.querySelector('#eprecio').value = btn.getAttribute('data-precio');
+            document.querySelector('#eid').value = btn.getAttribute('data-id');
+
+        });
+    });
+</script>
