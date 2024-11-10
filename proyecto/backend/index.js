@@ -3,6 +3,12 @@ const app = express();
 const productosRoutes = require('./routes/productosRoutes');
 const categoriasRoutes = require('./routes/categoriasRoutes');
 const usuariosRoutes = require('./routes/usuariosRoutes');
+const documentacionRoutes = require('./routes/documentacionRoutes');
+
+
+app.set('view engine', 'ejs');
+app.engine('ejs', require('ejs').__express);
+
 
 const mongoose = require('mongoose');
 const conexion = require('./conexion');
@@ -23,4 +29,5 @@ app.listen(3000, () => {
 app.use(productosRoutes);
 app.use(categoriasRoutes);
 app.use(usuariosRoutes);
+app.use(documentacionRoutes);
 
