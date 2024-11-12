@@ -1,22 +1,21 @@
-const express = require('express');
+//const express = require('express');
+import express from 'express';
 const router = express.Router();
-const Producto = require('../models/Producto');
+//const Producto = require('../models/Producto');
 
-const bodyParser = require('body-parser');
-router.use(bodyParser.json());
+//import Producto from '../models/producto.js';
+
+//const bodyParser = require('body-parser');
 
 
-router.get('/productos', (req, res) => {
+//import bodyParser from 'body-parser';
+//router.use(bodyParser.json());
 
-    console.log('GET /productos');
-    Producto.find()
-        .then(resultado => {
-            res.json(resultado);
-        })
-        .catch(err => {
-            res.send(err);
-        });
-});
+import { getProductos } from '../controllers/productosController.js';
+
+
+
+router.get('/productos', getProductos);
 
 router.post('/productos', (req, res) => {
     console.log('POST /productos');
@@ -102,4 +101,6 @@ router.get('/productos/nombre/:nombre', (req, res) => {
 } );
 
 
-module.exports = router;
+//module.exports = router;
+
+export default router;

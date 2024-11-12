@@ -1,6 +1,8 @@
-const express = require('express');
+//const express = require('express');
+import express from 'express';
 const router = express.Router();
-const Categoria = require('../models/categoria');
+//const Categoria = require('../models/categoria');
+import Categoria from '../models/categoria.js';
 
 router.get('/categorias', (req, res) => {
     console.log('GET /categorias');
@@ -13,4 +15,6 @@ router.get('/categorias', (req, res) => {
         });
 });
 
-module.exports = router;
+//module.exports = router;
+
+export default router;

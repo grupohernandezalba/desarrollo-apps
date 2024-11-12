@@ -1,4 +1,5 @@
-const dotenv = require('dotenv');
+//const dotenv = require('dotenv');
+import dotenv from 'dotenv';
 dotenv.config();
 
 const DB_USER = process.env.DB_USER;
@@ -11,4 +12,5 @@ const CLUSTER = process.env.CLUSTER;
 
 const conexion = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@${CLUSTER}/${DB_NAME}`;
 
-module.exports = conexion;
+//module.exports = conexion;
+export default conexion;

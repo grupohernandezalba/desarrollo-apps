@@ -1,6 +1,8 @@
-const express = require('express');
+//const express = require('express');
+import express from 'express';
 const router = express.Router();
-const Usuario = require('../models/usuario');
+//const Usuario = require('../models/usuario');
+import Usuario from '../models/usuario.js';
 
 router.get('/usuarios', (req, res) => {
     console.log('GET /usuarios');
@@ -13,4 +15,6 @@ router.get('/usuarios', (req, res) => {
         });
 });
 
-module.exports = router;
+//module.exports = router;
+
+export default router;
