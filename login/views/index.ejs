@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+    <h1>INICIO</h1>
+
+    <%- include('partials/menu') %>
+    <% if (user) { %>
+        <p>Bienvenido <%= user.nickname %></p>
+        <img src=<%= user.picture %> alt="foto">
+    <% } %>
+
+<%- include('partials/footer') %>
