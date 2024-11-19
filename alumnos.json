@@ -3,7 +3,7 @@
         "nombre" : "José de Jesús",
         "apellidos" : "Almanza Contreras",
         "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/jose-de-jesus-almanza.webp",
         "equipo" : "NA"
     },
@@ -11,7 +11,7 @@
         "nombre" : "Greys Alexa",
         "apellidos" : "Almanza Vega",
         "participaciones" : 1,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/greys.webp",
         "equipo" : "NA"
     },
@@ -19,7 +19,7 @@
         "nombre" : "Pablo Emilio",
         "apellidos" : "Alonso Romero",
         "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/pablo.webp",
         "equipo" : "NA"
     },
@@ -27,7 +27,7 @@
         "nombre" : "Josué",
         "apellidos" : "Amador Ynfante,Access modifiers",
         "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
@@ -35,7 +35,7 @@
         "nombre" : "Luis Felipe",
         "apellidos" : "Anaya Parada",
         "participaciones" : 2,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/luis-felipe.webp",
         "equipo" : "NA"
     },
@@ -43,7 +43,7 @@
         "nombre" : "Jorge Orlando",
         "apellidos" : "Andrade Hernández",
         "participaciones" : 2,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/orlando.webp",
         "equipo" : "NA"
     },
@@ -59,7 +59,7 @@
         "nombre" : "Denisse",
         "apellidos" : "Chagoya Veloz",
         "participaciones" : 0,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
@@ -67,7 +67,7 @@
         "nombre" : "Leonardo Gael",
         "apellidos" : "Durán Torres",
         "participaciones" : 1,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/leo.webp",
         "equipo" : "NA"
     },
@@ -91,7 +91,7 @@
         "nombre" : "Saray Alexandra",
         "apellidos" : "Martínez",
         "participaciones" : 1,
-        "practicas" : 1,
+        "practicas" : 2,
         "foto" : "imagenes/saray.webp",
         "equipo" : "NA"
     }, 
@@ -107,7 +107,7 @@
         "nombre" : "Diego Sebastián",
         "apellidos" : "Rojas Guerrero",
         "participaciones" : 0,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     },
@@ -115,7 +115,7 @@
         "nombre" : "Carlos Manuel",
         "apellidos" : "Serrano Aguilar",
         "participaciones" : 2,
-        "practicas" : 0,
+        "practicas" : 1,
         "foto" : "imagenes/sin-imagen.png",
         "equipo" : "NA"
     }
